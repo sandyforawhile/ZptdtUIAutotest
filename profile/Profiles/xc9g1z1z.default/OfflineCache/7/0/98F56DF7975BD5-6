@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# version: code-v448
+
+CACHE:
+# css
+/static/css/offlintab-439.css
+# js
+/static/js/offlintab-448.js
+# img
+/static/img/Logo.png
+/static/img/icon/animated.png
+/static/img/icon/arrow.png
+/static/img/icon/bottom.png
+/static/img/icon/close.png
+/static/img/icon/controls-431.png
+/static/img/icon/fake_scroll.png
+/static/img/icon/hover_left.png
+/static/img/icon/hover_left_grey.png
+/static/img/icon/hover_right.png
+/static/img/icon/hover_right_grey.png
+/static/img/icon/open_close.png
+/static/img/icon/plus.png
+/static/img/icon/remove.png
+/static/img/icon/search-icon.png
+/static/img/icon/tools.png
+/static/img/noise.png
+/static/img/search/baidu_web.png
+/static/img/search/google_web-444.png
+/static/img/search/taobao_shopping-446.png
+
+NETWORK:
+*
+
+FALLBACK:
+/ /static/offlintab.html
