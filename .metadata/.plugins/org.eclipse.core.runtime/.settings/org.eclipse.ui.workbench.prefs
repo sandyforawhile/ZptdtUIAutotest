@@ -1,0 +1,4 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<editors version\="3.1">\r\n<info extension\="json" name\="*">\r\n<editor id\="com.boothen.jsonedit.core.editors.JsonPageEditor"/>\r\n<defaultEditor id\="com.boothen.jsonedit.core.editors.JsonPageEditor"/>\r\n</info>\n<info extension\="properties" name\="*">\r\n<editor id\="org.eclipse.jdt.ui.PropertiesFileEditor"/>\r\n<defaultEditor id\="org.eclipse.jdt.ui.PropertiesFileEditor"/>\r\n</info>\r\n</editors>

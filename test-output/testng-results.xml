@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="337134" started-at="2016-06-24T03:01:03Z" finished-at="2016-06-24T03:06:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="337134" started-at="2016-06-24T03:01:03Z" finished-at="2016-06-24T03:06:40Z">
+      <class name="com.g7s.zptdt.service.Testcase_SendtaskManagementSearch">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="beforeSuite" is-config="true" duration-ms="56728" started-at="2016-06-24T11:00:06Z" finished-at="2016-06-24T11:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="beforeClass" is-config="true" duration-ms="11388" started-at="2016-06-24T11:01:03Z" finished-at="2016-06-24T11:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_SearchByTasktime()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="Test01_SearchByTasktime" duration-ms="7440" started-at="2016-06-24T11:01:14Z" finished-at="2016-06-24T11:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_SearchByTasktime -->
+        <test-method status="PASS" signature="Test02_SearchByPostman()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="Test02_SearchByPostman" duration-ms="666" started-at="2016-06-24T11:01:21Z" finished-at="2016-06-24T11:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_SearchByPostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="afterClass" is-config="true" duration-ms="2575" started-at="2016-06-24T11:01:22Z" finished-at="2016-06-24T11:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementSearch@38d1851a]" name="afterSuite" is-config="true" duration-ms="19583" started-at="2016-06-24T11:06:40Z" finished-at="2016-06-24T11:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_SendtaskManagementSearch -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementDelete">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementDelete@7f8bf723]" name="beforeClass" is-config="true" duration-ms="37856" started-at="2016-06-24T11:03:05Z" finished-at="2016-06-24T11:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_DeletePostman()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementDelete@7f8bf723]" name="Test01_DeletePostman" duration-ms="6978" started-at="2016-06-24T11:03:43Z" finished-at="2016-06-24T11:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_DeletePostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementDelete@7f8bf723]" name="afterClass" is-config="true" duration-ms="429" started-at="2016-06-24T11:03:50Z" finished-at="2016-06-24T11:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementDelete -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementAdd">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementAdd@609b7a91]" name="beforeClass" is-config="true" duration-ms="10466" started-at="2016-06-24T11:02:29Z" finished-at="2016-06-24T11:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_AddPostman(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementAdd@609b7a91]" name="Test01_AddPostman" duration-ms="25204" started-at="2016-06-24T11:02:39Z" data-provider="addpostman" finished-at="2016-06-24T11:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试司机]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zpttest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13433333333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_AddPostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementAdd@609b7a91]" name="afterClass" is-config="true" duration-ms="422" started-at="2016-06-24T11:03:05Z" finished-at="2016-06-24T11:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementAdd -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementLocate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementLocate@20ca8d94]" name="beforeClass" is-config="true" duration-ms="12824" started-at="2016-06-24T11:04:41Z" finished-at="2016-06-24T11:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_LocatePostman()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementLocate@20ca8d94]" name="Test01_LocatePostman" duration-ms="0" started-at="2016-06-24T11:04:54Z" finished-at="2016-06-24T11:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_LocatePostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementLocate@20ca8d94]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-06-24T11:04:54Z" finished-at="2016-06-24T11:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementLocate -->
+      <class name="com.g7s.zptdt.service.Testcase_SendtaskManagementImport">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementImport@43798b1a]" name="beforeClass" is-config="true" duration-ms="10217" started-at="2016-06-24T11:01:25Z" finished-at="2016-06-24T11:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_ImportPostman()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementImport@43798b1a]" name="Test01_ImportPostman" duration-ms="52240" started-at="2016-06-24T11:01:35Z" finished-at="2016-06-24T11:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_ImportPostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_SendtaskManagementImport@43798b1a]" name="afterClass" is-config="true" duration-ms="1775" started-at="2016-06-24T11:02:27Z" finished-at="2016-06-24T11:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_SendtaskManagementImport -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementImport">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementImport@3e0e5c40]" name="beforeClass" is-config="true" duration-ms="10508" started-at="2016-06-24T11:03:50Z" finished-at="2016-06-24T11:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_ImportPostman()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementImport@3e0e5c40]" name="Test01_ImportPostman" duration-ms="35315" started-at="2016-06-24T11:04:01Z" finished-at="2016-06-24T11:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_ImportPostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementImport@3e0e5c40]" name="afterClass" is-config="true" duration-ms="4901" started-at="2016-06-24T11:04:36Z" finished-at="2016-06-24T11:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementImport -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementSearch">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementSearch@5215005d]" name="beforeClass" is-config="true" duration-ms="10814" started-at="2016-06-24T11:04:54Z" finished-at="2016-06-24T11:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_SearchByPostmanname()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementSearch@5215005d]" name="Test01_SearchByPostmanname" duration-ms="8976" started-at="2016-06-24T11:05:05Z" finished-at="2016-06-24T11:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_SearchByPostmanname -->
+        <test-method status="PASS" signature="Test02_SearchByPhone()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementSearch@5215005d]" name="Test02_SearchByPhone" duration-ms="8962" started-at="2016-06-24T11:05:14Z" finished-at="2016-06-24T11:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_SearchByPhone -->
+        <test-method status="PASS" signature="Test03_SearchByOrg()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementSearch@5215005d]" name="Test03_SearchByOrg" duration-ms="11101" started-at="2016-06-24T11:05:23Z" finished-at="2016-06-24T11:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_SearchByOrg -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementSearch@5215005d]" name="afterClass" is-config="true" duration-ms="2453" started-at="2016-06-24T11:05:34Z" finished-at="2016-06-24T11:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementSearch -->
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementUpdate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementUpdate@60cb03c4]" name="beforeClass" is-config="true" duration-ms="38242" started-at="2016-06-24T11:05:36Z" finished-at="2016-06-24T11:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_EditUsedPostman(java.lang.String, java.lang.String)[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementUpdate@60cb03c4]" name="Test01_EditUsedPostman" duration-ms="24259" started-at="2016-06-24T11:06:15Z" data-provider="editpostman" finished-at="2016-06-24T11:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试测试司机]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zpttest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_EditUsedPostman -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g7s.zptdt.service.Testcase_PostmanManagementUpdate@60cb03c4]" name="afterClass" is-config="true" duration-ms="865" started-at="2016-06-24T11:06:39Z" finished-at="2016-06-24T11:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g7s.zptdt.service.Testcase_PostmanManagementUpdate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

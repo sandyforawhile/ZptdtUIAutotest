@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  TestDemo</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestDemo</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 19 10:12:18 CST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>167 seconds (167807 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.g7s.zptdt.service.Testcase_PostmanManagementAdd.Test01_AddPostman()'><b>Test01_AddPostman</b><br>Test class: com.g7s.zptdt.service.Testcase_PostmanManagementAdd<br>Parameters: 测试司机, zpttest_hao, 13433333333</td>
+<td></td>
+<td>25</td>
+<td>com.g7s.zptdt.service.Testcase_PostmanManagementAdd@68dfb213</td></tr>
+<tr>
+<td title='com.g7s.zptdt.service.Testcase_PostmanManagementImport.Test01_ImportPostman()'><b>Test01_ImportPostman</b><br>Test class: com.g7s.zptdt.service.Testcase_PostmanManagementImport</td>
+<td></td>
+<td>35</td>
+<td>com.g7s.zptdt.service.Testcase_PostmanManagementImport@3624332f</td></tr>
+<tr>
+<td title='com.g7s.zptdt.service.Testcase_PostmanManagementSearch.Test01_SearchByPostmanname()'><b>Test01_SearchByPostmanname</b><br>Test class: com.g7s.zptdt.service.Testcase_PostmanManagementSearch</td>
+<td></td>
+<td>8</td>
+<td>com.g7s.zptdt.service.Testcase_PostmanManagementSearch@29c6e6e</td></tr>
+<tr>
+<td title='com.g7s.zptdt.service.Testcase_PostmanManagementSearch.Test02_SearchByPhone()'><b>Test02_SearchByPhone</b><br>Test class: com.g7s.zptdt.service.Testcase_PostmanManagementSearch</td>
+<td></td>
+<td>8</td>
+<td>com.g7s.zptdt.service.Testcase_PostmanManagementSearch@29c6e6e</td></tr>
+<tr>
+<td title='com.g7s.zptdt.service.Testcase_PostmanManagementSearch.Test03_SearchByOrg()'><b>Test03_SearchByOrg</b><br>Test class: com.g7s.zptdt.service.Testcase_PostmanManagementSearch</td>
+<td></td>
+<td>10</td>
+<td>com.g7s.zptdt.service.Testcase_PostmanManagementSearch@29c6e6e</td></tr>
+</table><p>
+</body>
+</html>

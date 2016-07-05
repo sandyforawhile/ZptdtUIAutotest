@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteDemo]" data-provider-thread-count="20">
+  <test name="TestDemo">
+    <classes>
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementAdd"/>
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementImport"/>
+      <class name="com.g7s.zptdt.service.Testcase_PostmanManagementSearch"/>
+    </classes>
+  </test> <!-- TestDemo -->
+</suite> <!-- Failed suite [SuiteDemo] -->
