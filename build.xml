@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="ant-testng-test" default="run" basedir=".">
+    
+    <path id="run.classpath">
+        <fileset dir="${basedir}" includes = "lib/*.jar" />
+    	<pathelement location="com.g7s.zptdt"/>
+    	<pathelement location="build"/>
+    </path>
+	
+    <target name = "clean">
+        <delete dir = "build" />
+    </target>
+    <target name = "compile" depends="clean">
+        <mkdir dir="${basedir}/build" />
+        <javac srcdir = "com.g7s.zptdt" destdir="build" includeantruntime="off" debug="on" encoding="UTF-8" classpathref="run.classpath" debuglevel="lines,vars,source"/>
+        <copy todir="${basedir}/build">
+            <fileset dir="${basedir}/WebUIComponents">
+               <include name="*.properties" />
+          </fileset>
+       </copy>
+    </target>
+              
+	
+    <taskdef resource="testngtasks"  classpath="lib/testng.jar" />
+    <target name="run" depends="compile">
+        <testng outputDir="test-output" classpathref="run.classpath">
+            <xmlfileset dir="${basedir}"  includes="testng.xml" />
+        </testng>
+    </target>
+</project>
